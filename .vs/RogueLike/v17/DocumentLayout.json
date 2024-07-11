@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Personnage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|solutionrelative:Personnage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Monstre.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|solutionrelative:Monstre.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Personnage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|solutionrelative:Personnage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|C:\\Users\\aymer\\Source\\Repos\\RogueLike\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|solutionrelative:Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4956D68A-E5EF-45AA-8475-B7063EC2C3BF}|RogueLike.vcxproj|solutionrelative:Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-03T21:29:08.886Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Projectile.h",
+              "DocumentMoniker": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Projectile.h",
+              "RelativeDocumentMoniker": "Projectile.h",
+              "ToolTip": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Projectile.h",
+              "RelativeToolTip": "Projectile.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-11T21:27:48.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Projectile.cpp",
+              "DocumentMoniker": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Projectile.cpp",
+              "RelativeDocumentMoniker": "Projectile.cpp",
+              "ToolTip": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Projectile.cpp",
+              "RelativeToolTip": "Projectile.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-11T21:27:33.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAAAJ8AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-11T20:52:50.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-11T20:52:36.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monstre.h",
+              "DocumentMoniker": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Monstre.h",
+              "RelativeDocumentMoniker": "Monstre.h",
+              "ToolTip": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Monstre.h",
+              "RelativeToolTip": "Monstre.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-11T16:28:37.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Personnage.h",
+              "DocumentMoniker": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Personnage.h",
+              "RelativeDocumentMoniker": "Personnage.h",
+              "ToolTip": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Personnage.h",
+              "RelativeToolTip": "Personnage.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-04T12:31:07.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Personnage.cpp",
+              "DocumentMoniker": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Personnage.cpp",
+              "RelativeDocumentMoniker": "Personnage.cpp",
+              "ToolTip": "C:\\Users\\aymer\\Source\\Repos\\RogueLike\\Personnage.cpp",
+              "RelativeToolTip": "Personnage.cpp",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T12:27:37.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

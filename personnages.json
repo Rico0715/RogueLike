@@ -1,0 +1,28 @@
+{
+    "personnages": [
+        {
+            "nom": "Arthur",
+            "pointsDeVie": 100,
+            "degatsAttaque": 20,
+            "armorPoints": 10,
+            "mana": 50,
+            "level": 5,
+            "sorts": [
+                { "nom": "Boule de Feu", "degats": 50 },
+                { "nom": "Éclair", "degats": 40 }
+            ]
+        },
+        {
+            "nom": "Merlin",
+            "pointsDeVie": 80,
+            "degatsAttaque": 15,
+            "armorPoints": 5,
+            "mana": 70,
+            "level": 7,
+            "sorts": [
+                { "nom": "Soins", "degats": -30 },
+                { "nom": "Téléportation", "degats": 0 }
+            ]
+        }
+    ]
+}
