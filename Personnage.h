@@ -8,6 +8,7 @@
 #include <vector>
 #include "Projectile.h"
 #include "Monstre.h"
+#include "Bonus.h"
 class Spell;
 
 class Personnage {
@@ -56,6 +57,9 @@ public:
     void setAttackSpeed(float speed); // Setter for attack speed
     int getMaxHealthPoints() const;
     float getHealthPercentage() const;
+    int getAttackDamage()const;
+    void applyBonus(const Bonus& bonus); // Ajout de la méthode applyBonus
+
 
     // SFML Methods
     void draw(sf::RenderWindow& window);

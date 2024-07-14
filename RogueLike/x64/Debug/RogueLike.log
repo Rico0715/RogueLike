@@ -1,3 +1,31 @@
-﻿  Personnage.cpp
+﻿  Game.cpp
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(203,51): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(203,36): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(233,49): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(233,49): warning C4244:         with
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(233,49): warning C4244:         [
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(233,49): warning C4244:             T=float
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(233,49): warning C4244:         ]
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(233,34): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(233,34): warning C4244:         with
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(233,34): warning C4244:         [
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(233,34): warning C4244:             T=float
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(233,34): warning C4244:         ]
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(241,53): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(241,53): warning C4244:         with
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(241,53): warning C4244:         [
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(241,53): warning C4244:             T=float
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(241,53): warning C4244:         ]
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(241,38): warning C4244: 'argument' : conversion de 'int' en 'T', perte possible de données
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(241,38): warning C4244:         with
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(241,38): warning C4244:         [
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(241,38): warning C4244:             T=float
+C:\Users\aymer\Source\Repos\RogueLike\Game.cpp(241,38): warning C4244:         ]
+  Personnage.cpp
 C:\Users\aymer\Source\Repos\RogueLike\Personnage.cpp(50,23): warning C4244: 'initialisation' : conversion de 'double' en 'int', perte possible de données
+C:\Users\aymer\Source\Repos\RogueLike\Personnage.cpp(148,45): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\aymer\Source\Repos\RogueLike\Personnage.cpp(154,45): warning C4244: '+=' : conversion de 'float' en 'int', perte possible de données
+  Sort.cpp
+  main.cpp
+  Génération de code en cours...
   RogueLike.vcxproj -> C:\Users\aymer\Source\Repos\RogueLike\x64\Debug\RogueLike.exe

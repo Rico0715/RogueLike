@@ -21,6 +21,8 @@ private:
     void resetGame();
     void drawGameOverScreen();
     void handleShooting(); // Nouvelle méthode pour gérer le tir continu
+    void generateBonuses();
+
 
 
     sf::RenderWindow window;
@@ -28,6 +30,9 @@ private:
     Personnage character1;
     std::vector<Monstre> monsters;
     std::vector<Projectile> projectiles;
+    std::vector<Bonus> bonuses;
+
+
 
     enum class GameState {
         Playing,

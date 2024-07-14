@@ -129,9 +129,33 @@ sf::Vector2f Personnage::getPosition() const {
     return sprite.getPosition();
 }
 
+int Personnage::getAttackDamage() const
+{
+    return attackDamage;
+}
+
 sf::FloatRect Personnage::getBounds() const
 {
     return sprite.getGlobalBounds();
+}
+
+void Personnage::applyBonus(const Bonus& bonus) {
+    switch (bonus.getType()) {
+    /*case BonusType::Speed:
+        this->speed += bonus.getValue();
+        break;*/
+    case BonusType::AttackDamage:
+        this->attackDamage += bonus.getValue();
+        break;
+    case BonusType::AttackSpeed:
+        this->attackSpeed += bonus.getValue();
+        break;
+    case BonusType::HealPoints:
+        this->healthPoints += bonus.getValue();
+        break;
+    default:
+        break;
+    }
 }
 
 

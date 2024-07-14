@@ -140,6 +140,7 @@ sfml-system-d.lib
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Bonus.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="Monstre.h" />
@@ -149,6 +150,7 @@ sfml-system-d.lib
     <ClInclude Include="Sort.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Bonus.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Monstre.cpp" />

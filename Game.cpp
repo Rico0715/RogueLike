@@ -5,7 +5,7 @@
 
 Game::Game()
     : window(sf::VideoMode(1920, 1080), "SFML Character and Monster Test"),
-    character1("Arthur", 10000, 70, 50, 100, 10, 10.9f, { Spell("Fireball", 50, 30), Spell("Lightning", 40, 20), Spell("Heal", -30, 25) }, "C:/Users/aymer/Pictures/assets/PixelWarriorsByAndrox/warblue.png"),
+    character1("Arthur", 10000, 70, 50, 100, 10, 1.9f, { Spell("Fireball", 50, 30), Spell("Lightning", 40, 20), Spell("Heal", -30, 25) }, "C:/Users/aymer/Pictures/assets/PixelWarriorsByAndrox/warblue.png"),
     gameState(GameState::Playing),
     isMousePressed(false) // Initialisation de la variable à false
 {
@@ -90,6 +90,17 @@ void Game::update() {
         }
     }
 
+    // Vérifiez la collision entre le personnage et les bonus
+    for (auto it = bonuses.begin(); it != bonuses.end();) {
+        if (character1.getBounds().intersects(it->getBounds())) {
+            character1.applyBonus(*it);
+            it = bonuses.erase(it); // Supprimez le bonus après l'application
+        }
+        else {
+            ++it;
+        }
+    }
+
     // Move monsters towards the character
     sf::Vector2f characterPosition = character1.getPosition();
     float deltaTime = 0.1f; // Simulated delta time for movement (replace with actual delta time)
@@ -119,6 +130,11 @@ void Game::render() {
             }
         }
 
+        // Dessiner les bonus
+        for (auto& bonus : bonuses) {
+            bonus.draw(window);
+        }
+
         // Afficher le pourcentage des HP du personnage
         sf::Text hpText;
         hpText.setFont(font);
@@ -129,6 +145,25 @@ void Game::render() {
         hpText.setPosition(20, 20); // Position à ajuster selon votre interface
 
         window.draw(hpText);
+
+        // Afficher la vitesse d'attaque du personnage
+        sf::Text attackSpeedText;
+        attackSpeedText.setFont(font);
+        attackSpeedText.setCharacterSize(20);
+        attackSpeedText.setFillColor(sf::Color::Yellow);
+        attackSpeedText.setString("Attack Speed: " + std::to_string(character1.getAttackSpeed()));
+        attackSpeedText.setPosition(20, 50); // Position à ajuster selon votre interface
+
+        window.draw(attackSpeedText);
+
+        sf::Text attackDamageText;
+        attackDamageText.setFont(font);
+        attackDamageText.setCharacterSize(20);
+        attackDamageText.setFillColor(sf::Color::Red);
+        attackDamageText.setString("Attack Damage: " + std::to_string(character1.getAttackDamage()));
+        attackDamageText.setPosition(20, 70); // Position à ajuster selon votre interface
+
+        window.draw(attackDamageText);
     }
     else if (gameState == GameState::GameOver) {
         drawGameOverScreen();
@@ -136,6 +171,7 @@ void Game::render() {
 
     window.display();
 }
+
 
 void Game::handlePlayerInput(sf::Keyboard::Key key, bool isPressed) {
     // Handle keyboard input if needed
@@ -167,6 +203,9 @@ void Game::resetGame() {
         monster.setPosition(rand() % 1920, rand() % 1080); // Random position on the map
         monsters.push_back(monster);
     }
+
+    bonuses.clear();
+    generateBonuses();
 }
 
 void Game::drawGameOverScreen() {
@@ -187,4 +226,19 @@ void Game::drawGameOverScreen() {
 
     window.draw(gameOverText);
     window.draw(restartText);
+}
+
+void Game::generateBonuses() {
+    // Exemple de génération d'un bonus de type AttackSpeed avec une valeur aléatoire entre 1 et 5
+    sf::Vector2f position(rand() % 1920, rand() % 1080); // Position aléatoire
+    float attackSpeedValue = static_cast<float>((rand() % 5) + 1); // Valeur aléatoire entre 1 et 5
+    bonuses.push_back(Bonus(BonusType::AttackSpeed, attackSpeedValue, position)); // Bonus de vitesse d'attaque avec une valeur aléatoire
+
+    // Vous pouvez également ajouter d'autres bonus si nécessaire
+    for (int i = 0; i < 4; ++i) { // 4 autres bonus
+        BonusType type = static_cast<BonusType>(rand() % 2); // Deux types de bonus restants: Speed et AttackDamage
+        float value = static_cast<float>((rand() % 5) + 1); // Valeur aléatoire entre 1 et 5
+        sf::Vector2f position(rand() % 1920, rand() % 1080); // Position aléatoire
+        bonuses.push_back(Bonus(type, value, position));
+    }
 }
